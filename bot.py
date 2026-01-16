@@ -1,7 +1,7 @@
 from telegram.ext import ApplicationBuilder, CommandHandler
 import os
 
-TOKEN = os.getenv("TOKEN")
+TOKEN = os.getenv("8407069489:AAF2brwSXTR9hq4H2ktIRfp0DQbwQd2a9YU")
 
 app = ApplicationBuilder().token(TOKEN).build()
 
